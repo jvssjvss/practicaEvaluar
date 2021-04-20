@@ -1,0 +1,46 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #E8F9FF;
+}
+body{
+    padding: 1.25rem;
+    background-color: #E8F9FF;
+}
+header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav{
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo{
+    height: 50px;
+}
+footer{
+    background-color:#647378;
+    color: white;
+    padding: 1.125px;
+    display: flex;
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-bottom: 1rem;
+}
+
+.titulo{
+    font-size: 1.125rem;
+    font-weight: bolder;
+
+}

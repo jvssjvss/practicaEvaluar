@@ -1,8 +1,8 @@
 html{
     font-size: 16px;
     font-family: sans-serif;
-    background-color: #E8F9FF;
 }
+
 body{
     padding: 1.25rem;
     background-color: #E8F9FF;
@@ -25,11 +25,22 @@ nav{
 .logo{
     height: 50px;
 }
+a{
+    color: black;
+}
+.zig-zag{
+    display: flex;
+    align-items: center;
+}
+.dos{
+    flex-direction: row-reverse;
+}
 footer{
     background-color:#647378;
     color: white;
     padding: 1.125px;
     display: flex;
+    align-items: center;
 
 }
 ul{
@@ -37,6 +48,10 @@ ul{
 }
 li{
     margin-bottom: 1rem;
+}
+h6{
+    flex-grow: 2;
+    justify-items: flex-end;
 }
 
 .titulo{

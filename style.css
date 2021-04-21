@@ -2,12 +2,26 @@ html{
     font-size: 16px;
     font-family: sans-serif;
 }
+.flexible{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+}
 
 body{
     padding: 1.25rem;
     background-color: #E8F9FF;
 }
-header{
+#header, #main, #footer{
+    flex-basis: 1366px;
+    justify-content: center;
+}
+
+header, main, footer{
+    display: flex;
+    justify-content: center;
+}
+#header{
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -16,7 +30,7 @@ header{
 
 }
 nav{
-    width: 25vw;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -28,6 +42,14 @@ nav{
 a{
     color: black;
 }
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    justify-self: center;
+}
 .zig-zag{
     display: flex;
     align-items: center;
@@ -35,16 +57,26 @@ a{
 .dos{
     flex-direction: row-reverse;
 }
+.sideFooter{
+    background-color:#647378;
+
+}
 footer{
     background-color:#647378;
+}
+#footer{
+    
     color: white;
     padding: 1.125px;
     display: flex;
-    align-items: center;
-
+}
+.izq{
+    display: flex;
+    flex-grow: 0.5;
 }
 ul{
     list-style-type: none;
+    flex-basis: 50%;
 }
 li{
     margin-bottom: 1rem;
@@ -53,6 +85,7 @@ h6{
     flex-grow: 2;
     justify-items: flex-end;
 }
+
 
 .titulo{
     font-size: 1.125rem;
